@@ -106,10 +106,8 @@ public class Main extends Application {
                     
                     String c = ke.getText();
                     createLetter( c );
-                    System.out.println("name is : " + ke.getCode().getName() );
                     
                     if( c.equals("9") ) {
-                        System.out.println("ending input...");
                         writerInstance.destroy();
                         System.exit(0);
                     }
