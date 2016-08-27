@@ -86,7 +86,6 @@ public class Main extends Application {
         private static final Font FONT_DEFAULT = new Font(Font.getDefault().getFamily(), 200);
         private static final Random RANDOM = new Random();
         private static final Interpolator INTERPOLATOR = Interpolator.SPLINE(0.295,0.800,0.305,1.000);
-        private static final Writer WRITER = Writer.INSTANCE;
         private Text pressText;
 
         public LettersPane() {
