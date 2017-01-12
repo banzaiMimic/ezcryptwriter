@@ -39,7 +39,6 @@ public enum Reader {
         
         eLines.stream().map((s) -> Encrypt.INSTANCE.decrypt( key, initVector, s )).forEach((dLine) -> {
             returnobj.add( dLine );
-            System.out.println( dLine );
         });
         
         return returnobj;
