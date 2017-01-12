@@ -15,6 +15,9 @@ public class ReadDemo {
     public static void main(String[] args) {
         
         List<String> lines = Reader.INSTANCE.decryptFile( KEY, INITVECTOR, FILENAME );
+        for( String s : lines ) {
+            System.out.println(s);
+        }
         
     }
     
