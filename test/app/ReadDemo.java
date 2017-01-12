@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class ReadDemo {
     
-    private static final String FILENAME = "./sU1484203690812.txt";
+    private static final String FILENAME = "./demo.txt";
     private static final String KEY = "Fr3Cu3nCIe7l2345";
     private static final String INITVECTOR = "Rand0mThR34t5tor";
     
